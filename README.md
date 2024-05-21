@@ -1,4 +1,3 @@
-# Amazon.github.io
 ## Empowering Amazon: The Role of Data Structures and Algorithms in Business Success
 <dl>
 <dt>Course Name</dt>
