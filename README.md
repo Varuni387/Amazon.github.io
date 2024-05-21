@@ -35,4 +35,13 @@ Through the prism of data structures and algorithms, this portfolio project expl
 ## Functionalities:
 This repository contains examples and implementations showing how to use and integrate Amazon services efficiently.
 
-1. Recommendation on products
+1. DFS : Graph traversal algorithms for exploring or searching through graph or tree structures, used recommendation systems.[View code here](){:target="_blank"}<br><br>
+2. Dijakstra's algorithm: Graph algorithm to find shortest path between nodes in a weighted graph. [View code here](){:target="_blank"}<br><br>
+3. Red-black trees : This binary search trees are self-balancing inorder to make CRUD operations more optimistic. Managing amazon accounts can be one application. [View code here](){:target="_blank"}<br><br>
+4. Fenwick tree of sum query: This kind of tree is used to fetch sum between range of queries. We can fetch number of orders in the given span by one account (or) from single destination. [View code here](){:target="_blank"}<br><br>
+5. Trie : Tries are an application of tree data structure usually used to retrive the keys. [View code here](){:target="_blank"}<br><br>
+6. Travelling Salesman Problem : This is the optimization problem to reach to every city exactly once and return back to the origin city. Collection and delivery of items from multiple sources and destinations. [View code here](){:target="_blank"}<br><br>
+7. Topological sort : Graph algorithm used to find the strongly connected sub graphs in a directed graph. To get the frequency of orders from a particular destination. [View code here](){:target="_blank"}<br><br>
+8. Max heap : A heap data structure where child nodes are lesser than the parent node. Cart management can use this data structure. The heap can be created based on how many times customer visited the product site. [View code here](){:target="_blank"}<br><br>
+9. Edit distance : This is dynamic problem which gives the number of minimum operations required to make two strings equal. This can be used to provide better recommendations and helps in spell check as well.[View code here](){:target="_blank"}<br><br>
+10. Linked list : This is a linear data structure, here it can be used to just store the payment history which we cannot fetch using any key. [View code here](){:target="_blank"}<br><br>
