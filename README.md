@@ -19,7 +19,7 @@
 > Varuni
 
 <br>
-#### Note:
+Note:
 This page hosts:
 
 1. Introduction
