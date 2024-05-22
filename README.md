@@ -1,4 +1,4 @@
-## Empowering Amazon: The Role of Data Structures and Algorithms in Business Success
+## Amazon Efficiency: Data Structures and Algorithms in Action
 <dl>
 <dt>Course Name</dt>
 <dd>Algorithmic Problem Solving</dd>
