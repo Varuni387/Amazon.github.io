@@ -18,16 +18,6 @@
 > Varuni
 
 <br>
-Note:
-This page hosts:
-
-1. Introduction
-2. Business Use cases/Functionalities
-3. Why Portfolio
-4. Objectives
-5. Design
-6. Challenges
-7. To-Do
    
 ## Introduction:
 Through the prism of data structures and algorithms, this portfolio project explores the various functionalities offered by Amazon. The goal of the project is to provide novel solutions that optimise many facets of Amazon's operations, with an emphasis on practical business use cases. We'll look at how Amazon's ecosystem may innovate and become more efficient through the strategic use of data structures and algorithms, from improving recommendation systems to optimising transportation and inventory control. Come explore the revolutionary possibilities of these ideas as we show you how to improve consumer satisfaction and performance in the e-commerce space.
