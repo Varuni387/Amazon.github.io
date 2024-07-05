@@ -66,9 +66,9 @@ The time complexity of building a max heap is O(n), where n is the number of ele
 <br><br>
 The space complexity of building a max heap is O(1) because we are not using any additional space that grows with the input size. The heap is built in place by rearranging the elements in the array.<br><br>
 9. Edit distance : This is dynamic problem which gives the number of minimum operations required to make two strings equal. This can be used to provide better recommendations and helps in spell check as well.[View code here]( https://github.com/Varuni387/Amazon.github.io/blob/main/Codes/editDistance.cpp){:target="_blank"}<br><br>
-The time complexity of calculating the edit distance between two strings using dynamic programming is O(m * n), where m and n are the lengths of the two strings.This is because we need to fill in a 2D table of size (m+1) x (n+1) to store the intermediate results of the subproblems.
+The time complexity of calculating the edit distance between two strings using dynamic programming is O(m x n), where m and n are the lengths of the two strings.This is because we need to fill in a 2D table of size (m+1) x (n+1) to store the intermediate results of the subproblems.
 <br><br>
-The space complexity is also O(m * n) because we need to store the entire 2D table. However, it is possible to optimize the space complexity to O(min(m,n)) by only storing two rows of the table at a time, as we only need the results from the previous row to calculate the current row.<br><br>
+The space complexity is also O(m x n) because we need to store the entire 2D table. However, it is possible to optimize the space complexity to O(min(m,n)) by only storing two rows of the table at a time, as we only need the results from the previous row to calculate the current row.<br><br>
 10. Linked list : This is a linear data structure, here it can be used to just store the payment history which we cannot fetch using any key. [View code here]( https://github.com/Varuni387/Amazon.github.io/blob/main/Codes/addAtEnd.cpp){:target="_blank"}<br><br>
 Insertion at the beginning of the linked list:
    - Time complexity: O(1)
@@ -96,6 +96,6 @@ Reversing a linked list:
    - Reversing a linked list involves changing the pointers of each node to point to the previous node. This operation requires traversing the entire list once, resulting in a linear time complexity.
 <br><br>
 11. Least Common Subsequence : When comparing product descriptions or customer reviews, the Longest Common Subsequence (LCS) method can be utilised to identify common patterns and similarities. This can improve the entire buying experience by helping the recommendation system find related products or group reviews that are similar. [View code here]( https://github.com/Varuni387/Amazon.github.io/blob/main/Codes/lcs.cpp){:target="_blank"}<br><br>
-The time complexity of finding the Longest Common Subsequence (LCS) of two strings using dynamic programming is O(m * n),where m and n are the lengths of the two input strings.This is because we need to fill in a 2D table of size (m+1) x (n+1) to store the lengths of the LCS for all possible prefixes of the two strings.
+The time complexity of finding the Longest Common Subsequence (LCS) of two strings using dynamic programming is O(m x n), where m and n are the lengths of the two input strings. This is because we need to fill in a 2D table of size (m+1) x (n+1) to store the lengths of the LCS for all possible prefixes of the two strings.
 <br><br>
-The space complexity is also O(m * n) because we need to store the entire 2D table mentioned above. This is because we need to keep track of the lengths of the LCS for all possible prefixes of the two strings.<br><br>
+The space complexity is also O(m x n) because we need to store the entire 2D table mentioned above. This is because we need to keep track of the lengths of the LCS for all possible prefixes of the two strings.<br><br>
