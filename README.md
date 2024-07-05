@@ -20,7 +20,14 @@
 <br>
    
 ## Introduction:
-Through the prism of data structures and algorithms, this portfolio project explores the various functionalities offered by Amazon. The goal of the project is to provide novel solutions that optimise many facets of Amazon's operations, with an emphasis on practical business use cases. We'll look at how Amazon's ecosystem may innovate and become more efficient through the strategic use of data structures and algorithms, from improving recommendation systems to optimising transportation and inventory control. Come explore the revolutionary possibilities of these ideas as we show you how to improve consumer satisfaction and performance in the e-commerce space.
+   Through the prism of data structures and algorithms, this portfolio project explores the various functionalities offered by Amazon. The goal of the project is to provide novel solutions that optimise many facets of Amazon's operations, with an emphasis on practical business use cases. We'll look at how Amazon's ecosystem may innovate and become more efficient through the strategic use of data structures and algorithms, from improving recommendation systems to optimising transportation and inventory control. Come explore the revolutionary possibilities of these ideas as we show you how to improve consumer satisfaction and performance in the e-commerce space.
+
+## Objectives
+1. Optimise product recommendation systems by effective data structure exploration.
+2. Use weighted graphs to determine the shortest paths in order to optimise delivery routes and logistics.
+3. Handle CRUD tasks for Amazon accounts in a balanced and effective manner.
+4. Analyse order frequency using effective range sum queries within predetermined timeframes.
+5. Streamline search processes to retrieve product keys and recommendations more quickly and effectively.
 
 ## Functionalities:
 This repository contains examples and implementations showing how to use and integrate Amazon services efficiently.
@@ -88,3 +95,7 @@ Reversing a linked list:
    - Space complexity: O(1)
    - Reversing a linked list involves changing the pointers of each node to point to the previous node. This operation requires traversing the entire list once, resulting in a linear time complexity.
 <br><br>
+11. Least Common Subsequence : When comparing product descriptions or customer reviews, the Longest Common Subsequence (LCS) method can be utilised to identify common patterns and similarities. This can improve the entire buying experience by helping the recommendation system find related products or group reviews that are similar. [View code here]( https://github.com/Varuni387/Amazon.github.io/blob/main/Codes/lcs.cpp){:target="_blank"}<br><br>
+The time complexity of finding the Longest Common Subsequence (LCS) of two strings using dynamic programming is O(m*n), where m and n are the lengths of the two input strings. This is because we need to fill in a 2D table of size (m+1) x (n+1) to store the lengths of the LCS for all possible prefixes of the two strings.
+<br><br>
+The space complexity is also O(m*n) because we need to store the entire 2D table mentioned above. This is because we need to keep track of the lengths of the LCS for all possible prefixes of the two strings.<br><br>
